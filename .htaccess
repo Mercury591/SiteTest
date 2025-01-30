@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+
+# Redireciona para o index.php
+RewriteRule ^$ public/index.php [L]
+
+# Redireciona para as páginas específicas
+RewriteRule ^registro$ public/registro.php [L]
+RewriteRule ^downloads$ public/downloads.php [L]
+RewriteRule ^pagamentos$ public/pagamentos.php [L]
+RewriteRule ^forum$ public/forum.php [L]
